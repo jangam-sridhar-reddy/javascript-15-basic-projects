@@ -146,7 +146,7 @@ function removeItemsList(){
     conatiner.classList.remove("show-container");
     
     displayAlert("items removed from the list", "danger");
-    // localStorage.clear();
+    localStorage.clear();
 
     setBackToDefault();
     
